@@ -187,7 +187,7 @@ button[disabled=disabled], button:disabled {
 
 
 
-/* @media screen and (min-width:390px) {
+@media screen and (min-width:390px) {
 	.container{
 		width: 90%;
 		height: 100%;
@@ -197,18 +197,26 @@ button[disabled=disabled], button:disabled {
 	.tr-informacao{
 		font-size: 25px;
 	}
-	.info--label{
+	.info--label, .filtro-tabela{
 		font-size: 30px;
 	}
 
-	.campo{
+	.campo, #filtrar-tabela{
 		height: 60px;
 	}
-	.grupo{
+
+	.grupo, #filtrar-tabela{
 		width: 100%;
 	}
-	input::placeholder{
+
+	input, #filtrar-tabela::placeholder{
 		font-size: 25px;
 	}
+	.bto-principal{
+		height: 60px;
+	}
+	.rodape{
+		margin-top: 100px;
+	}
 
-} */
+}
