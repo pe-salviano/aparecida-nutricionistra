@@ -1,0 +1,22 @@
+header{
+	background-color: #04324c;
+	height: 8em;
+	color: #FFF;
+	margin-bottom: 3em;
+    padding: 1em 0 0 3em;
+    
+
+}
+
+.titulo__cabecalho{
+	font-size: 3em;
+    font-family: var(--fonte-titulo);
+    padding-top: .5em;
+    font-weight: 700;	
+}
+
+/* @media screen and (min-width:390px) {
+	.titulo__cabecalho{
+		margin-left: 50px;
+	}
+} */

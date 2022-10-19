@@ -1,0 +1,214 @@
+@import url(./header.css);
+
+*{
+	box-sizing: border-box;
+ }
+
+:root{
+	--fonte-titulo:'Poppins', sans-serif;
+	--cor-titulo:#FFFFFF;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.sub-titulo{
+	font-size: 3em;
+	display:inline-block;
+	vertical-align:	middle;
+	font-family: var(--fonte-titulo);
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: auto;
+	vertical-align:	middle;
+	text-align: center;
+}
+
+
+.container{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+}
+
+#filtrar-tabela{
+	width:300px;
+	height: 35px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#filtrar-tabela::placeholder{
+	font-size: 16px;
+}
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+.form__nome{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: -3px 0 0 0;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+	
+}
+.rodape{
+	margin-top: 200px;
+}
+
+.texto__rodape{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	padding-top:20px;
+	bottom: 0;
+	text-align: center;
+	font-family: var(--fonte-titulo);
+	font-weight: 200;
+	font-size: 20px;
+	color: var(--cor-titulo);
+	background: #04324c;
+
+}
+
+.paciente-invalido{
+	background-color: lightcoral;
+}
+.sub-titulo--form{
+	font-family: var(--fonte-titulo);
+	padding-top: 30px;
+}
+
+#mensagens-erro{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.invisivel{
+	display: none;
+}
+
+
+
+/* @media screen and (min-width:390px) {
+	.container{
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		
+	}
+	.tr-informacao{
+		font-size: 25px;
+	}
+	.info--label{
+		font-size: 30px;
+	}
+
+	.campo{
+		height: 60px;
+	}
+	.grupo{
+		width: 100%;
+	}
+	input::placeholder{
+		font-size: 25px;
+	}
+
+} */
