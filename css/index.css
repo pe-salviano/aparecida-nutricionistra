@@ -185,38 +185,3 @@ button[disabled=disabled], button:disabled {
 	display: none;
 }
 
-
-
-@media screen and (min-width:390px) {
-	.container{
-		width: 90%;
-		height: 100%;
-		margin: 0 auto;
-		
-	}
-	.tr-informacao{
-		font-size: 25px;
-	}
-	.info--label, .filtro-tabela{
-		font-size: 30px;
-	}
-
-	.campo, #filtrar-tabela{
-		height: 60px;
-	}
-
-	.grupo, #filtrar-tabela{
-		width: 100%;
-	}
-
-	input, #filtrar-tabela::placeholder{
-		font-size: 25px;
-	}
-	.bto-principal{
-		height: 60px;
-	}
-	.rodape{
-		margin-top: 100px;
-	}
-
-}

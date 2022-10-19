@@ -14,9 +14,3 @@ header{
     padding-top: .5em;
     font-weight: 700;	
 }
-
-@media screen and (min-width:390px) {
-	.titulo__cabecalho{
-		margin-left: 50px;
-	}
-}
